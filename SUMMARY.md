@@ -1,11 +1,8 @@
 # Table of contents
 
-* [README](README.md)
-* [Basic Concept](basic-concept/README.md)
-
 ## Symbol Interpretation
 
-* [Object-Oriented Programming](symbol-interpretation/object-oriented-programming/README.md)
+* [Object-Oriented Programming](README.md)
   * [Encapsulation](symbol-interpretation/object-oriented-programming/encapsulation.md)
   * [Abstraction](symbol-interpretation/object-oriented-programming/abstraction.md)
   * [Inheritance](symbol-interpretation/object-oriented-programming/inheritance.md)

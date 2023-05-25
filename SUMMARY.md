@@ -5,20 +5,41 @@
 
 ## Symbol Interpretation
 
-* [References](symbol-interpretation/references.md)
+* [Object-Oriented Programming](symbol-interpretation/object-oriented-programming/README.md)
+  * [Encapsulation](symbol-interpretation/object-oriented-programming/encapsulation.md)
+  * [Abstraction](symbol-interpretation/object-oriented-programming/abstraction.md)
+  * [Inheritance](symbol-interpretation/object-oriented-programming/inheritance.md)
+  * [Polymorphism](symbol-interpretation/object-oriented-programming/polymorphism.md)
+* [Functional Programming](symbol-interpretation/functional-programming/README.md)
+  * [First-Class Function](symbol-interpretation/functional-programming/first-class-function.md)
+  * [Closure](symbol-interpretation/functional-programming/closure.md)
+  * [Side Effect](symbol-interpretation/functional-programming/side-effect.md)
+  * [Lazy Evaluation](symbol-interpretation/functional-programming/lazy-evaluation.md)
+* [Syntax](symbol-interpretation/syntax/README.md)
+  * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)
+* [Runtime](symbol-interpretation/runtime/README.md)
+  * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)
+  * [Gabbage Collection](symbol-interpretation/runtime/gabbage-collection.md)
+* [Compilation](symbol-interpretation/compilation/README.md)
+  * [Type Inference](symbol-interpretation/compilation/type-inference.md)
+  * [Just-In-Time Compilation](symbol-interpretation/compilation/just-in-time-compilation.md)
 * [LLVM](symbol-interpretation/llvm/README.md)
   * [LLVM IR](symbol-interpretation/llvm/llvm-ir.md)
   * [MLIR](symbol-interpretation/mlir/README.md)
+* [Discussion](symbol-interpretation/discussion.md)
+* [References](symbol-interpretation/references.md)
 
 ## Language Analysis
 
 * [C++](language-analysis/c++.md)
+* [Swift](language-analysis/swift.md)
 * [Rust](language-analysis/rust.md)
+* [Go](language-analysis/go.md)
 * [Java](language-analysis/java/README.md)
   * [Kotlin](language-analysis/java/kotlin.md)
   * [Scala](language-analysis/java/scala.md)
-* [Go](language-analysis/go.md)
-* [Haskell](language-analysis/haskell.md)
+* [C#](language-analysis/c.md)
+* [JavaScript](language-analysis/javascript.md)
 * [Script Language](language-analysis/script-language/README.md)
   * [Python](language-analysis/script-language/python.md)
   * [Ruby](language-analysis/script-language/ruby.md)
@@ -28,6 +49,7 @@
 
 * [Meta Language](meta-language/README.md)
   * [Lisp](meta-language/lisp.md)
+  * [Haskell](meta-language/haskell.md)
   * [Ocaml](meta-language/ocaml.md)
   * [F#](meta-language/f.md)
 * [DSL](dsl/README.md)
@@ -52,13 +74,10 @@
   * [oneTBB (MIMD)](framework-analysis/computing-optimization/onetbb-mimd.md)
   * [OpenMP (MIMD)](framework-analysis/computing-optimization/openmp-mimd.md)
   * [Discussion](framework-analysis/computing-optimization/discussion.md)
-
-***
-
-* [Distributed System](distributed-system/README.md)
-  * [MPI](distributed-system/mpi.md)
-* [Standard?](standard/README.md)
-  * [POSIX](standard/posix.md)
+* [Distributed System](framework-analysis/distributed-system/README.md)
+  * [MPI](framework-analysis/distributed-system/mpi.md)
+* [Standard?](framework-analysis/standard/README.md)
+  * [POSIX](framework-analysis/standard/posix.md)
 
 ## Data Storage
 

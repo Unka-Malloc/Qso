@@ -4,7 +4,7 @@
 
 Database Management System (DBMS) 是一种经典的传统数据模型, 它对数据进行规范化, 并且统一管理. 保证数据的完整性, 稳定性和安全性是DBMS的主要目标.&#x20;
 
-DBMS以事务处理为核心, 这也叫做 **OLTP** (Online Transaction Processing). 得益于事务驱动的特性, DBMS最初, 且最适合的使用场景就是银行交易系统.&#x20;
+DBMS以事务类功能为核心, 即写入和读取数据时需要保持一致性, 这也叫做 **OLTP** (Online Transaction Processing). 得益于事务的读写一致性, DBMS最初, 且最适合的使用场景就是银行交易系统.&#x20;
 
 #### 基本特性 (ACID)
 

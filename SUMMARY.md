@@ -1,14 +1,14 @@
 # Table of contents
 
 * [README](README.md)
-* [Basic Concept](basic-concept.md)
+* [Basic Concept](basic-concept/README.md)
 
 ## Symbol Interpretation
 
 * [References](symbol-interpretation/references.md)
 * [LLVM](symbol-interpretation/llvm/README.md)
   * [LLVM IR](symbol-interpretation/llvm/llvm-ir.md)
-  * [MLIR](symbol-interpretation/llvm/mlir.md)
+  * [MLIR](symbol-interpretation/mlir/README.md)
 
 ## Language Analysis
 
@@ -18,6 +18,7 @@
   * [Kotlin](language-analysis/java/kotlin.md)
   * [Scala](language-analysis/java/scala.md)
 * [Go](language-analysis/go.md)
+* [Haskell](language-analysis/haskell.md)
 * [Script Language](language-analysis/script-language/README.md)
   * [Python](language-analysis/script-language/python.md)
   * [Ruby](language-analysis/script-language/ruby.md)
@@ -25,6 +26,10 @@
 
 ***
 
+* [Meta Language](meta-language/README.md)
+  * [Lisp](meta-language/lisp.md)
+  * [Ocaml](meta-language/ocaml.md)
+  * [F#](meta-language/f.md)
 * [DSL](dsl/README.md)
   * [SQL](dsl/sql.md)
   * [MongoDB](dsl/mongodb.md)
@@ -57,12 +62,12 @@
 
 ## Data Storage
 
-* [DBMS Essential](data-storage/dbms-essential.md)
+* [DBMS Essential](basic-concept/dbms-essential.md)
 
 ## High-Performance Computing
 
 * [Overview](high-performance-computing/overview.md)
-* [Batch Computing](high-performance-computing/batch-computing.md)
+* [Batch Computing](basic-concept/data-computation.md)
 * [Stream Computing](high-performance-computing/stream-computing.md)
 * [Interactive Computing](high-performance-computing/interactive-computing.md)
 * [Graph Computing](high-performance-computing/graph-computing.md)

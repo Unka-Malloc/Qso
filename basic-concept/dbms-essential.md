@@ -44,15 +44,9 @@ RDS (Relational Database Service) 是互联网公司提供的基于关系型数�
 
 1. **I/O** 延迟 (**Latency**)&#x20;
 2. 网络带宽容量 (**Network** Bandwidth **Capacity**)
-3. 成本控制 (**Cost Control**)
-4. 故障恢复 (**Recovery**)
+3. 故障恢复 (**Recovery**)
+4. 成本控制 (**Cost Control**)
 
 大型服务器集群的管理和性能问题直接推动了 云原生(Cloud Native) 的架构革命, 同时也带来了新的开发(Develop) 部署 (Deploy) 模式.&#x20;
 
-<figure><img src="../.gitbook/assets/rc24-cloud-native-evolution.avif" alt=""><figcaption><p>[1]</p></figcaption></figure>
-
-## Reference
-
-{% embed url="https://www.oracle.com/cn/cloud/cloud-native/what-is-cloud-native/" fullWidth="false" %}
-\[1]
-{% endembed %}
+<figure><img src="../.gitbook/assets/rc24-cloud-native-evolution.avif" alt=""><figcaption><p>[1] <a href="https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/">https://www.oracle.com/cloud/cloud-native/what-is-cloud-native/</a></p></figcaption></figure>

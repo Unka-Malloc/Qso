@@ -12,7 +12,7 @@
 * [References](symbol-interpretation-1/references.md)
 * [LLVM](symbol-interpretation-1/llvm/README.md)
   * [LLVM IR](symbol-interpretation-1/llvm/llvm-ir.md)
-  * [MLIR](symbol-interpretation-1/llvm/mlir.md)
+  * [MLIR](symbol-interpretation/mlir/README.md)
 
 ## Framework Analysis
 

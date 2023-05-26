@@ -6,10 +6,12 @@
 
 因为: 如果高位索引(Higher Index)存在, 那么低位索引(Lower Index) 必然不可能超出边界(Boundary).&#x20;
 
+所以: 执行过高位索引(Higher Index)之后, 低位索引(Lower Index) 便不再需要执行边界检查.
+
 ```
 x := ["a", "b", "c", "d", "e"];
 
-// ~> x := ("a", "b", "c", "d", "e");
+// optimize ~> x := ("a", "b", "c", "d", "e");
 
 x[2] // bounds check!
 x[0] // bounds check eliminate!

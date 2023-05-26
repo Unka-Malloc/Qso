@@ -12,7 +12,7 @@ Unix® 是 OpenGroup 拥有的 商标(Trademark), 因此 Unix 认证是需要 **
 
 {% embed url="https://www.opengroup.org/openbrand/register/" %}
 
-**MacOS** 是 IEEE 认证的 Unix OS, 因此必定兼容基于 POSIX 标准开发的软件.
+**MacOS** 是 OpenGroup 认证的 Unix OS, 因此必定兼容基于 POSIX 标准开发的软件.
 
 Linux 不是 Unix OS, 但它是 Unix-Like OS. Linux 对 POSIX 标准的支持完全来自社区的贡献.
 

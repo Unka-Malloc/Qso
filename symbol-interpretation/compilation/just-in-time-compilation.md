@@ -1,2 +1,6 @@
-# Just-In-Time Compilation
+---
+description: Just-In-Time Compilation
+---
+
+# JIT
 

@@ -4,17 +4,17 @@ description: Portable Operating System Interface
 
 # POSIX
 
-POSIX 是 IEEE 定义的 基于 Unix 操作系统(Operating System) 的 兼容标准(Compatibility Standard).
+**POSIX** 是 IEEE 定义的 基于 **Unix** 操作系统(Operating System) 的 **兼容标准**(Compatibility Standard).
 
-实现了 POSIX 兼容标准 的软件, 可以在任何 Unix 系统上运行.
+**实现了 POSIX 兼容标准 的软件, 可以在任何 Unix 系统上运行.**
 
 Unix® 是 OpenGroup 拥有的 商标(Trademark), 因此 Unix 认证是需要 **花钱** 的!
 
 {% embed url="https://www.opengroup.org/openbrand/register/" %}
 
-**MacOS** 是 OpenGroup 认证的 Unix OS, 因此必定兼容基于 POSIX 标准开发的软件.
+**MacOS 是 OpenGroup 认证的 Unix OS**, 因此必定兼容基于 POSIX 标准开发的软件.
 
-Linux 不是 Unix OS, 但它是 Unix-Like OS. Linux 对 POSIX 标准的支持完全来自社区的贡献.
+**Linux 不是 Unix OS**, 但它是 Unix-Like OS. Linux 对 POSIX 标准的支持完全来自社区的贡献.
 
 Linux 的语法实际上是 POSIX 标准的超集.
 

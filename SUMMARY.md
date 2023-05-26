@@ -4,7 +4,7 @@
 
 ## Symbol Interpretation
 
-* [Object-Oriented Programming](<README (1).md>)
+* [Object-Oriented Programming](symbol-interpretation/object-oriented-programming/README.md)
   * [Encapsulation](symbol-interpretation/object-oriented-programming/encapsulation.md)
   * [Abstraction](symbol-interpretation/object-oriented-programming/abstraction.md)
   * [Inheritance](symbol-interpretation/object-oriented-programming/inheritance.md)
@@ -92,8 +92,6 @@
     * [Read](database-analysis/mysql/crud/read.md)
     * [Update](database-analysis/mysql/crud/update.md)
     * [Delete](database-analysis/mysql/crud/delete.md)
-
-## Data Warehouse
 
 ## High-Performance Computing
 

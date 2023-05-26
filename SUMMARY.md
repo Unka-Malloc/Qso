@@ -15,6 +15,7 @@
   * [Side Effect](symbol-interpretation/functional-programming/side-effect.md)
   * [Lazy Evaluation](symbol-interpretation/functional-programming/lazy-evaluation.md)
 * [Syntax](symbol-interpretation/syntax/README.md)
+  * [Desugar](symbol-interpretation/syntax/desugar.md)
   * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)
 * [Runtime](symbol-interpretation/runtime/README.md)
   * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)
@@ -30,31 +31,30 @@
 
 ## Language Analysis
 
-* [C++](language-analysis/c++.md)
+* [C++](language-analysis/c++/README.md)
+  * [内存管理](language-analysis/c++/nei-cun-guan-li.md)
+* [Java](language-analysis/java/README.md)
+  * [JVM - GC](language-analysis/java/jvm-gc.md)
+* [Kotlin](language-analysis/kotlin.md)
+* [Scala](language-analysis/scala.md)
 * [Swift](language-analysis/swift.md)
 * [Rust](language-analysis/rust.md)
 * [Go](language-analysis/go.md)
-* [Java](language-analysis/java/README.md)
-  * [Kotlin](language-analysis/java/kotlin.md)
-  * [Scala](language-analysis/java/scala.md)
 * [C#](language-analysis/c.md)
 * [JavaScript](language-analysis/javascript.md)
+* [Meta Language](language-analysis/meta-language/README.md)
+  * [Lisp](language-analysis/meta-language/lisp.md)
+  * [Haskell](language-analysis/meta-language/haskell.md)
+  * [Ocaml](language-analysis/meta-language/ocaml.md)
+  * [F#](language-analysis/meta-language/f.md)
 * [Script Language](language-analysis/script-language/README.md)
   * [Python](language-analysis/script-language/python.md)
   * [Ruby](language-analysis/script-language/ruby.md)
   * [Julia](language-analysis/script-language/julia.md)
-
-***
-
-* [Meta Language](meta-language/README.md)
-  * [Lisp](meta-language/lisp.md)
-  * [Haskell](meta-language/haskell.md)
-  * [Ocaml](meta-language/ocaml.md)
-  * [F#](meta-language/f.md)
-* [DSL](dsl/README.md)
-  * [SQL](dsl/sql.md)
-  * [MongoDB](dsl/mongodb.md)
-  * [Logica](dsl/logica.md)
+* [DSL](language-analysis/dsl/README.md)
+  * [SQL](language-analysis/dsl/sql.md)
+  * [MongoDB](language-analysis/dsl/mongodb.md)
+  * [Logica](language-analysis/dsl/logica.md)
 
 ## Framework Analysis
 

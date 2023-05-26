@@ -72,16 +72,16 @@
 ## Operating System
 
 * [eBPF](operating-system/ebpf.md)
-* [POSIX](operating-system/posix.md)
-* [Instruction Set](operating-system/instruction-set/README.md)
-  * [x86](operating-system/instruction-set/x86.md)
-  * [ARM](operating-system/instruction-set/arm.md)
-  * [RISC-V](operating-system/instruction-set/risc-v.md)
-  * [MIPS](operating-system/instruction-set/mips.md)
+* [POSIX](framework-analysis/standard/posix.md)
+* [Instruction Set](framework-analysis/instruction-set/README.md)
+  * [x86](framework-analysis/instruction-set/x86.md)
+  * [ARM](framework-analysis/instruction-set/arm.md)
+  * [RISC-V](framework-analysis/instruction-set/risc-v.md)
+  * [MIPS](framework-analysis/instruction-set/mips.md)
 
 ## Database Analysis
 
-* [DBMS Essential](database-analysis/dbms-essential.md)
+* [DBMS Essential](basic-concept/dbms-essential.md)
 * [MySQL](database-analysis/mysql/README.md)
   * [线程池 (Thread Pool)](database-analysis/mysql/xian-cheng-chi-thread-pool.md)
   * [查询缓存 (Query Cache)](database-analysis/mysql/cha-xun-huan-cun-query-cache.md)

@@ -19,7 +19,7 @@
   * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)
 * [Type System](symbol-interpretation/type-system/README.md)
   * [Type Complexity](symbol-interpretation/type-system/type-complexity.md)
-  * [Type Inference](symbol-interpretation/type-system/type-inference.md)
+  * [Type Inference](symbol-interpretation/compilation/type-inference.md)
   * [Generic Type](symbol-interpretation/type-system/generic-type.md)
 * [Runtime](symbol-interpretation/runtime/README.md)
   * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)

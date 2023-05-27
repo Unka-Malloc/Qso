@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Qso](README.md)
+  * [Articles](readme/articles.md)
 
 ## Symbol Interpretation
 
@@ -45,12 +46,12 @@
   * [JVM - GC](language-analysis/java/jvm-gc.md)
   * [Kotlin](language-analysis/java/kotlin.md)
   * [Scala](language-analysis/java/scala.md)
-* [Swift](language-analysis/swift.md)
+* [JavaScript](language-analysis/javascript.md)
 * [Rust](language-analysis/rust.md)
 * [Go](language-analysis/go.md)
+* [Swift](language-analysis/swift.md)
 * [C#](language-analysis/c/README.md)
   * [Syntax](language-analysis/c.md)
-* [JavaScript](language-analysis/javascript.md)
 * [Meta Language](meta-language/README.md)
   * [Lisp](meta-language/lisp.md)
   * [Haskell](meta-language/haskell.md)

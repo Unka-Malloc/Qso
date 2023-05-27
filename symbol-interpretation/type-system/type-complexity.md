@@ -57,6 +57,34 @@ enum class Color {
  (Meat::Roast, Color::White)}
 ```
 
+## Reduce Complexity
+
+降低类型复杂度(Reduce Complexity), 可以提升类型推理速度(Accelerate Type Inference).
+
+Rust 使用了 枚举(Enum)推理法则(Inference Principle). 把茫茫多的可能性降低到 2 种: `Result ::` `Ok` | `Err`, 以及 `Option ::` `Some` | `None`.&#x20;
+
+`Result` 用于 判断函数运行过程是否出现了错误.&#x20;
+
+`Option` 用于 判断返回结果的值是否是空值.
+
+```rust
+enum Result<R, E> {
+  Ok(R),
+  Err(E)
+}
+
+enum Option<T> {
+  Some(T),
+  None
+}
+```
+
+和传统的 `Struct` 或 `Object` 对比, 使用枚举(Enum)类型的优点是:
+
+1. **更小的内存占用**: 在分配内存时, 以枚举类型中较大的集合为上限(Upper Bound), 申请内存空间.
+2. **不会出现 Undefined.** Object 的属性可能为空, 也可能为非法值, 一切皆有可能出错.
+3. **更小的运行时开销**.&#x20;
+
 ## Usage
 
 类型复杂度(Type Complexity) 主要有以下用途:
@@ -66,6 +94,6 @@ enum class Color {
 
 ## Reference
 
-{% embed url="https://mp.weixin.qq.com/s?__biz=MzI0OTQxNjQ4MA==&chksm=e9909d91dee714875638d44d5ef1ffe0cb5898f164c48da08e573121df5dcf8564f222115dd2&cur_album_id=1851280371586252805&idx=1&mid=2247484382&scene=178&sn=b24747dca1ffb01264fa0916fb332de1#rd" %}
+{% embed url="https://mp.weixin.qq.com/s?__biz=MzI0OTQxNjQ4MA==&chksm=e9909da3dee714b51fd19086154a52f7edb0609dbb4bbe4a6302f78e72315f488d55f5913c55&cur_album_id=1851280371586252805&idx=1&mid=2247484396&scene=189&sn=d3163b58b71b888d79a35b8e31d0b48d#wechat_redirect" %}
 
 {% embed url="https://zhuanlan.zhihu.com/p/122564699" %}

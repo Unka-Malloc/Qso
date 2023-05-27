@@ -13,7 +13,7 @@ Destructor 可能被以下事件触发:
 1. 本地变量(Local Variable) 超出作用域(Scope), 对象的生命周期结束.
 2. 显式调用(Explicitly Invoke) `delete` 关键字 释放了 使用 `new` 关键字 创建的 Object.
 3. 全局对象(Global Object) 和 静态对象(Static Object) 在 程序结束前 调用 Destructor.
-4. 显式(Explicitly) 调用(Invoke) Destructor, 通常用于对指针地址(Pointer Address)的清理.&#x20;
+4. 显式(Explicitly) 调用(Invoke) Destructor, 通常用于对指针地址(Pointer Address)的清理, 这种方法需要清楚的知道当前指针对应的 Class Name, 因为需要显示调用 `ptr -> ~Class()` .
 
 #### 析构顺序 (Sequence)
 

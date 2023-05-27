@@ -17,6 +17,8 @@
 * [Syntax](symbol-interpretation/syntax/README.md)
   * [Desugar](symbol-interpretation/syntax/desugar.md)
   * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)
+* [Type System](symbol-interpretation/type-system/README.md)
+  * [Complexity](symbol-interpretation/type-system/complexity.md)
 * [Runtime](symbol-interpretation/runtime/README.md)
   * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)
   * [Gabbage Collection](symbol-interpretation/runtime/gabbage-collection.md)
@@ -35,7 +37,9 @@
 ## Language Analysis
 
 * [C++](language-analysis/c++.md)
+  * [Destructor](language-analysis/c++/destructor.md)
   * [Memory Management](language-analysis/c++/memory-management.md)
+  * [Rvalue Reference](language-analysis/c++/rvalue-reference.md)
 * [Java](language-analysis/java/README.md)
   * [JVM - GC](language-analysis/java/jvm-gc.md)
   * [Kotlin](language-analysis/java/kotlin.md)

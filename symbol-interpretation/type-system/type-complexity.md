@@ -38,7 +38,7 @@ Type Z = [X, Y]
 
 更通俗易懂的例子:
 
-我现在有一只鸭子, 它要不然是生(Raw)的, 要不然是熟(Roast)的, 要不然是棕色(Brown)的, 要不然就是白色(White)的. 但是一个鸭子不管是生的还是熟的( `Raw | Roast` ), 都不影响它的羽毛是什么颜色的(Feather Color). 这两种属性彼此独立, 又可以彼此结合, 组成鸭子的特征. 想要确认我的鸭子是什么样子的, 要穷举所有组合(Exhaustive Method) -> `{(Raw, Brown), (Roast, Brown), (Raw, White), (Roast, White)}` 因此, 这就是积类型(Product Type).&#x20;
+我现在有一只鸭子, 它要不然是生(Raw)的, 要不然是熟(Roast)的, 要不然是棕色(Brown)的, 要不然就是白色(White)的. 但是一个鸭子不管是生的还是熟的(`Raw`|`Roast`), 都不影响它的羽毛是什么颜色的(Feather Color). 这两种属性彼此独立, 又可以彼此结合, 组成鸭子的特征. 想要确认我的鸭子是什么样子的, 要穷举所有组合(Exhaustive Method) -> `{(Raw, Brown), (Roast, Brown), (Raw, White), (Roast, White)}` 因此, 这就是积类型(Product Type).&#x20;
 
 ```rust
 enum class Meat {

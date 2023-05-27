@@ -21,6 +21,7 @@
 * [Type System](symbol-interpretation/type-system/README.md)
   * [Type Complexity](symbol-interpretation/type-system/type-complexity.md)
   * [Type Inference](symbol-interpretation/compilation/type-inference.md)
+  * [Duck Type](symbol-interpretation/type-system/duck-type.md)
   * [Generic Type](symbol-interpretation/type-system/generic-type.md)
 * [Runtime](symbol-interpretation/runtime/README.md)
   * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)

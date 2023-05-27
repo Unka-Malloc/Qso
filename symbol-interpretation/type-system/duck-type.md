@@ -28,6 +28,6 @@ static void sound(DuckLike animal) {
 }
 ```
 
-现在开始, 不管是什么动物, 只要它像鸭子 (DuckLike), 那么它就开始 嘎嘎叫 (GaGaGa).
+现在开始, 不管是什么动物, 只要它 像鸭子(DuckLike), 那么它就开始 嘎嘎叫(GaGaGa).
 
 3. Duck Type 的特点就是一把梭哈, 经常被使用在 泛型(Generic Type) 中. 做 加法(Addition) 的时候, 不管是 整数(Integer) 还是 小数(Float / Double), 都加起来就完事儿了, 根本不需要区分类型, 反正都要加起来. 从各种层面上来说, Duck Type 都非常符合直觉, 也非常简单.

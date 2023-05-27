@@ -34,7 +34,7 @@
 * [LLVM](symbol-interpretation/llvm/README.md)
   * [LLVM IR](symbol-interpretation/llvm/llvm-ir.md)
   * [MLIR](symbol-interpretation/mlir/README.md)
-* [Discussion](symbol-interpretation/discussion/README.md)
+* [Discussion](symbol-interpretation/discussion.md)
   * [GaGaGa](symbol-interpretation/discussion/gagaga.md)
 * [References](symbol-interpretation/references.md)
 

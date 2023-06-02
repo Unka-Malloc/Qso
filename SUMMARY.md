@@ -23,9 +23,6 @@
   * [Type Inference](symbol-interpretation/compilation/type-inference.md)
   * [Duck Type](symbol-interpretation/type-system/duck-type.md)
   * [Generic Type](symbol-interpretation/type-system/generic-type.md)
-* [Runtime](symbol-interpretation/runtime/README.md)
-  * [Exception Handling](symbol-interpretation/runtime/exception-handling.md)
-  * [Gabbage Collection](symbol-interpretation/runtime/gabbage-collection.md)
 * [Compilation](symbol-interpretation/compilation/README.md)
   * [JIT](symbol-interpretation/compilation/just-in-time-compilation.md)
 * [Optimization](symbol-interpretation/optimization/README.md)
@@ -37,6 +34,13 @@
 * [Discussion](symbol-interpretation/discussion.md)
   * [GaGaGa](symbol-interpretation/discussion/gagaga.md)
 * [References](symbol-interpretation/references.md)
+
+## Runtime
+
+* [Process](runtime/process.md)
+* [Thread](runtime/thread.md)
+* [Exception Handling](runtime/exception-handling.md)
+* [Gabbage Collection](runtime/gabbage-collection.md)
 
 ## Language Analysis
 
@@ -68,6 +72,11 @@
   * [MongoDB](dsl/mongodb.md)
   * [Logica](dsl/logica.md)
 
+## Operating System
+
+* [eBPF](operating-system/ebpf.md)
+* [POSIX](framework-analysis/standard/posix.md)
+
 ## Framework Analysis
 
 * [Overview](resource-dispatch/overview.md)
@@ -82,16 +91,6 @@
   * [Discussion](framework-analysis/computing-optimization/discussion.md)
 * [Distributed System](framework-analysis/distributed-system/README.md)
   * [MPI](framework-analysis/distributed-system/mpi.md)
-
-## Operating System
-
-* [eBPF](operating-system/ebpf.md)
-* [POSIX](framework-analysis/standard/posix.md)
-* [Instruction Set](framework-analysis/instruction-set/README.md)
-  * [x86](framework-analysis/instruction-set/x86.md)
-  * [ARM](framework-analysis/instruction-set/arm.md)
-  * [RISC-V](framework-analysis/instruction-set/risc-v.md)
-  * [MIPS](framework-analysis/instruction-set/mips.md)
 
 ## Database Analysis
 

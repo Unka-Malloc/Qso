@@ -19,8 +19,12 @@ Kenel Thread 可以访问 OS 的 全局内存资源(Global Memory).&#x20;
 OS 通过 Thread Control Block (TCB) 对 Kernel Thread 进行 感知(Perception) 和 管理(Management). TCB 的 性能开销(Overhead) 低于 Process.
 
 {% hint style="info" %}
-Thread Control Block (TCB) -> Kernel Thread
+#### Thread Context:
 
-Context -> Process
+&#x20;   Thread Control Block -> Kernel Thread
+
+#### Process Context:
+
+&#x20;   Process Control Block -> Process
 {% endhint %}
 

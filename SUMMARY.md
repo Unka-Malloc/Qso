@@ -39,8 +39,8 @@
 
 * [Process](runtime/process.md)
 * [Thread](runtime/thread.md)
-* [Exception Handling](runtime/exception-handling.md)
-* [Gabbage Collection](runtime/gabbage-collection.md)
+* [Exception Handling](symbol-interpretation/runtime/exception-handling.md)
+* [Gabbage Collection](symbol-interpretation/runtime/gabbage-collection.md)
 
 ## Language Analysis
 

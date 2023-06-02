@@ -21,6 +21,6 @@ OS 通过 Thread Control Block (TCB) 对 Kernel Thread 进行 感知(Perception)
 {% hint style="info" %}
 Thread Control Block (TCB) -> Kernel Thread
 
-Context (Process Control Block) -> Process
+Context -> Process
 {% endhint %}
 

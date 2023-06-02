@@ -1,6 +1,6 @@
 # Thread
 
-线程 (Thread) 是 CPU 执行(Execute) 的最小单位. Thread 是 Process 的一部分, Thread 不具备 寻址空间(Address Space), 因此 Thread 只能依托于 Process 存在. 如果 Thread 崩溃, 那么负责管理这个线程的 Process 也会崩溃.&#x20;
+线程 (Thread) 是 CPU 执行(Execute) 的最小单位. Thread 是 Process 的一部分, Thread 不具备 单独的寻址空间(Independent Address Space), 因此 Thread 只能依托于 Process 存在. 如果 Thread 崩溃, 那么负责管理这个线程的 Process 也会崩溃.&#x20;
 
 #### **Address Space**
 

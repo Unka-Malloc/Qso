@@ -27,5 +27,5 @@ docker image rm debian
 #### 创建容器
 
 ```
-docker run --name styio_dev --detach debian
+docker run --name styio -i -t debian
 ```

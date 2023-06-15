@@ -15,6 +15,7 @@
   * [Closure](symbol-interpretation/functional-programming/closure.md)
   * [Side Effect](symbol-interpretation/functional-programming/side-effect.md)
   * [Lazy Evaluation](symbol-interpretation/functional-programming/lazy-evaluation.md)
+* [Encode / Decode](symbol-interpretation/encode-decode.md)
 * [Syntax](symbol-interpretation/syntax/README.md)
   * [Desugar](symbol-interpretation/syntax/desugar.md)
   * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)

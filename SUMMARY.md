@@ -13,6 +13,7 @@
 * [Functional Programming](symbol-interpretation/functional-programming/README.md)
   * [First-Class Function](symbol-interpretation/functional-programming/first-class-function.md)
   * [Closure](symbol-interpretation/functional-programming/closure.md)
+  * [Monad](symbol-interpretation/functional-programming/monad.md)
   * [Side Effect](symbol-interpretation/functional-programming/side-effect.md)
   * [Lazy Evaluation](symbol-interpretation/functional-programming/lazy-evaluation.md)
 * [Encode / Decode](symbol-interpretation/encode-decode.md)

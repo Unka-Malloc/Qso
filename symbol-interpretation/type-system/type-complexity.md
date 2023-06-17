@@ -97,3 +97,7 @@ enum Option<T> {
 {% embed url="https://mp.weixin.qq.com/s?__biz=MzI0OTQxNjQ4MA==&chksm=e9909da3dee714b51fd19086154a52f7edb0609dbb4bbe4a6302f78e72315f488d55f5913c55&cur_album_id=1851280371586252805&idx=1&mid=2247484396&scene=189&sn=d3163b58b71b888d79a35b8e31d0b48d#wechat_redirect" %}
 
 {% embed url="https://zhuanlan.zhihu.com/p/122564699" %}
+
+{% embed url="https://serokell.io/blog/algebraic-data-types-in-haskell" %}
+
+{% embed url="https://www.vacationlabs.com/haskell/adt.html" %}

@@ -2,7 +2,14 @@
 
 * [Qso](README.md)
   * [Articles](readme/articles.md)
-  * [科普账号](readme/ke-pu-zhang-hao.md)
+
+## David
+
+* [Development](david/development.md)
+* [Authentication](david/authentication.md)
+* [Validation](david/validation.md)
+* [Integration](david/integration.md)
+* [Delivery](david/delivery.md)
 
 ## Symbol Interpretation
 
@@ -149,4 +156,5 @@
 
 ***
 
-* [乱七八糟](cheng-yu-ji-lei.md)
+* [乱七八糟](luan-qi-ba-zao/README.md)
+  * [科普账号](luan-qi-ba-zao/ke-pu-zhang-hao.md)

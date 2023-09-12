@@ -5,6 +5,7 @@
 
 ## David
 
+* [Small Talk](david/small-talk.md)
 * [Development](david/development.md)
 * [Authentication](david/authentication.md)
 * [Validation](david/validation.md)

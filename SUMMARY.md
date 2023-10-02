@@ -154,7 +154,6 @@
 ## 八股文 (散装)
 
 * [Data Structure](ba-gu-wen-san-zhuang/data-structure.md)
-* [Page](ba-gu-wen-san-zhuang/page.md)
 
 ## Useful Tools
 

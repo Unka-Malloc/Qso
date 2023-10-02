@@ -145,6 +145,17 @@
 
 * [Overview](high-performance-computing/overview.md)
 
+## Distributed System
+
+* [Async. Comm.](distributed-system/async.-comm..md)
+* [Fundamental](distributed-system/fundamental/README.md)
+  * [CAP Theorem](distributed-system/fundamental/cap-theorem.md)
+
+## 八股文 (散装)
+
+* [Data Structure](ba-gu-wen-san-zhuang/data-structure.md)
+* [Page](ba-gu-wen-san-zhuang/page.md)
+
 ## Useful Tools
 
 * [FileCheck](useful-tools/filecheck.md)

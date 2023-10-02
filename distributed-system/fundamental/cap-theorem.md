@@ -11,8 +11,6 @@ description: Consistency, Availability, Partition Tolerance
 
 Consistency 强调数据的不同备份之间的完全一致性. 如果一个系统保证了一致性, 那么对于需要获取的数据, 只需要访问它的任意一个存储位置, 就可以获得最近写入的数据.
 
-
-
 ### Paxos (Algorithm)
 
 * Proposer
@@ -48,4 +46,8 @@ Apache ZooKeeper
 
 {% embed url="https://zhuanlan.zhihu.com/p/139973562" %}
 分布一致性与共识算法简介
+{% endembed %}
+
+{% embed url="https://www.cnblogs.com/three-fighter/p/15293310.html" %}
+CAP & BASE
 {% endembed %}

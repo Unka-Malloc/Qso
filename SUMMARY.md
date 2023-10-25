@@ -99,8 +99,9 @@
 
 ## Others
 
-* [Primitive Recursive Function](others/primitive-recursive-function.md)
-* [Pushdown Automata](others/pushdown-automata.md)
+* [Computability](others/computability/README.md)
+  * [Primitive Recursive Function](others/computability/primitive-recursive-function.md)
+* [Algebraic Data Type](others/algebraic-data-type.md)
 
 ## Operating System
 

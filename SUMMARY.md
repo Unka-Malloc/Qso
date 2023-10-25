@@ -97,6 +97,11 @@
   * [MongoDB](dsl/mongodb.md)
   * [Logica](dsl/logica.md)
 
+## Others
+
+* [Primitive Recursive Function](others/primitive-recursive-function.md)
+* [Automata](others/automata.md)
+
 ## Operating System
 
 * [eBPF](operating-system/ebpf.md)

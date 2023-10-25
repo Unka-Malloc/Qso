@@ -100,7 +100,7 @@
 ## Others
 
 * [Primitive Recursive Function](others/primitive-recursive-function.md)
-* [Automata](others/automata.md)
+* [Pushdown Automata](others/pushdown-automata.md)
 
 ## Operating System
 

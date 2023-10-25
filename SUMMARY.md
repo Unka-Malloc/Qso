@@ -30,7 +30,9 @@
   * [Desugar](symbol-interpretation/syntax/desugar.md)
   * [Pattern Matching](symbol-interpretation/syntax/pattern-matching.md)
 * [Type System](symbol-interpretation/type-system/README.md)
-  * [Type Complexity](symbol-interpretation/type-system/type-complexity.md)
+  * [Substructural Type System](symbol-interpretation/type-system/substructural-type-system.md)
+  * [Type Complexity](symbol-interpretation/type-system/type-complexity/README.md)
+    * [Algebraic Data Type](symbol-interpretation/type-system/type-complexity/algebraic-data-type.md)
   * [Type Inference](symbol-interpretation/compilation/type-inference.md)
   * [Duck Type](symbol-interpretation/type-system/duck-type.md)
   * [Generic Type](symbol-interpretation/type-system/generic-type.md)
@@ -101,7 +103,6 @@
 
 * [Computability](others/computability/README.md)
   * [Primitive Recursive Function](others/computability/primitive-recursive-function.md)
-* [Algebraic Data Type](others/algebraic-data-type.md)
 
 ## Operating System
 

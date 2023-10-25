@@ -89,8 +89,8 @@ enum Option<T> {
 
 类型复杂度(Type Complexity) 主要有以下用途:
 
-1. [类型推导(Type Inference)](../compilation/type-inference.md)
-2. [泛型(Generic Type)](generic-type.md)
+1. [类型推导(Type Inference)](../../compilation/type-inference.md)
+2. [泛型(Generic Type)](../generic-type.md)
 
 ## Reference
 

@@ -54,6 +54,11 @@
   * [MLIR](llvm/mlir.md)
   * [LLVM IR](llvm/llvm-ir.md)
 
+## Design Pattern
+
+* [Visitor](design-pattern/visitor/README.md)
+  * [Dispatch](design-pattern/visitor/dispatch.md)
+
 ## Runtime
 
 * [Design (Strategy)](runtime/design-strategy.md)

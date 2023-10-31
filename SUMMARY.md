@@ -59,6 +59,10 @@
 * [Visitor](design-pattern/visitor/README.md)
   * [Dispatch](design-pattern/visitor/dispatch.md)
 
+## Optimization
+
+* [Copy Elision](optimization/copy-elision.md)
+
 ## Runtime
 
 * [Design (Strategy)](runtime/design-strategy.md)

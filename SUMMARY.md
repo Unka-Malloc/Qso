@@ -2,7 +2,11 @@
 
 * [Qso](README.md)
   * [Articles](readme/articles.md)
-* [Anxious](anxious.md)
+
+## Topics
+
+* [Generics](topics/generics.md)
+* [Polymorphism](topics/polymorphism.md)
 
 ## David
 
@@ -170,6 +174,7 @@
 ## 八股文 (散装)
 
 * [Data Structure](ba-gu-wen-san-zhuang/data-structure.md)
+* [Anxious](ba-gu-wen-san-zhuang/anxious.md)
 
 ## Useful Tools
 

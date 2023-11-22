@@ -119,8 +119,14 @@
 
 ## Operating System
 
+* [io\_uring](operating-system/io\_uring.md)
 * [eBPF](operating-system/ebpf.md)
 * [POSIX](framework-analysis/standard/posix.md)
+* [MMAP](operating-system/mmap.md)
+* [I/O](operating-system/i-o/README.md)
+  * [Zero Copy](operating-system/i-o/zero-copy.md)
+* [Memory Management](operating-system/memory-management/README.md)
+  * [Copy On Write](operating-system/memory-management/copy-on-write.md)
 
 ## Framework Analysis
 

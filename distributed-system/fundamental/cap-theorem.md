@@ -17,13 +17,15 @@ Consistency 强调数据的不同备份之间的完全一致性. 如果一个系
 * Acceptor
 * Learner
 
-
-
 ### Raft (Algorithm)
 
 * Leader
 * Candidate
 * Follower
+
+{% embed url="https://raft.github.io/raft.pdf" %}
+
+{% embed url="https://acehi.github.io/thesecretlivesofdata-cn/raft/" %}
 
 {% embed url="https://raft.github.io/" %}
 Raft Consensus Algorithm

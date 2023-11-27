@@ -2,6 +2,8 @@
 
 * [Qso](README.md)
   * [Articles](readme/articles.md)
+* [Pathway](pathway/README.md)
+  * [Linked List](pathway/linked-list.md)
 
 ## Topics
 

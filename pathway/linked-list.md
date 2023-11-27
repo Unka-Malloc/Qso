@@ -210,6 +210,65 @@ public:
 #### [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/description/)
 
 {% tabs %}
+{% tab title="Python" %}
+```python
+class Solution:
+  def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+    if not l1 or l1.val == 0:
+      return l2
+    
+    if not l2 or l2.val == 0:
+      return l1
+    
+    buf1 = []
+    buf2 = []
+
+    m = 0
+    n = 0
+
+    while l1:
+      buf1.append(l1.val)
+      l1 = l1.next
+      m += 1
+
+    while l2:
+      buf2.append(l2.val)
+      l2 = l2.next
+      n += 1
+
+    if m < n:
+      buf1 = [0] * (n - m) + buf1
+    elif m > n:
+      buf2 = [0] * (m - n) + buf2
+
+    tmp = buf1.pop() + buf2.pop()
+    one = False
+    if tmp >= 10:
+      head = ListNode(val=tmp%10)
+      one = True
+    else:
+      head = ListNode(val=tmp)
+
+    for i in range(max(m, n)-1):
+      tmp = buf1.pop() + buf2.pop()
+
+      if one:
+        tmp += 1
+        one = False
+      
+      if tmp >= 10:
+        head = ListNode(tmp%10, head)
+        one = True
+      else:
+        head = ListNode(tmp, head)
+
+    if one:
+      head = ListNode(1, head)
+    
+    return head
+```
+{% endtab %}
+
 {% tab title="Java" %}
 ```java
 class Solution {
@@ -218,7 +277,7 @@ class Solution {
         ListNode head = null;
         ListNode tail = null;
         
-        while(l1 != null || l2 != null) {
+        while (l1 != null || l2 != null) {
             int n1 = (l1 != null) ? l1.val : 0;
             int n2 = (l2 != null) ? l2.val : 0;
             int sum = n1 + n2 + carry;
@@ -239,9 +298,11 @@ class Solution {
                 l2 = l2.next;
             }
         }
+        
         if (carry > 0) {
             tail.next = new ListNode(carry);
         }
+        
         return head;
     }
 }

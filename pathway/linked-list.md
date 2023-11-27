@@ -114,8 +114,8 @@ public:
         }
       }
 
-      auto dummy = new ListNode();
-      auto cur = dummy;
+      ListNode* dummy = new ListNode();
+      ListNode* curr = dummy;
       while (!pq.empty()) {
         auto node = pq.top();
 
@@ -125,8 +125,8 @@ public:
           pq.push(node->next);
         }
 
-        cur->next = node;
-        cur = cur->next;
+        curr->next = node;
+        curr = curr->next;
       }
 
       return dummy->next;

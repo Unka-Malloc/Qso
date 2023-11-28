@@ -1,5 +1,20 @@
 # io\_uring
 
+io\_uring is a part of Linux kernel.
+
+mmap -> share memory between user and kernel space
+
+Memory Barrier
+
+Submission Queue Ring: User submit entries into SQ.
+
+Completion Queue Ring: Kernel returns results to CQ.
+
+1. Aim to: Reduce system calls.
+2. Submission Queue Ring (SQ\_Ring) and Completion Queue Ring (CQ\_Ring) are shared queues between user space and kernel space.
+3. User - Submit into the Submission Queue Ring.
+4. Kernel - Return results to the Completion Queue Ring.
+
 {% embed url="https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023" %}
 
 {% embed url="https://github.com/0voice/kernel_new_features/tree/main/io_uring" %}

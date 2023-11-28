@@ -1,5 +1,7 @@
 # io\_uring
 
+{% embed url="https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023" %}
+
 {% embed url="https://github.com/0voice/kernel_new_features/tree/main/io_uring" %}
 
 {% embed url="https://nan01ab.github.io/2019/05/io_uring.html" %}

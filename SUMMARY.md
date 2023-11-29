@@ -98,6 +98,7 @@
 * [JavaScript](language-analysis/javascript.md)
 * [Rust](language-analysis/rust.md)
 * [Go](language-analysis/go/README.md)
+  * [Memory](language-analysis/go/memory.md)
   * [Escape Analysis](language-analysis/go/escape-analysis.md)
 * [Swift](language-analysis/swift.md)
 * [C#](language-analysis/c/README.md)
@@ -132,6 +133,8 @@
   * [Zero Copy](operating-system/i-o/zero-copy.md)
 * [Memory Management](operating-system/memory-management/README.md)
   * [Copy On Write](operating-system/memory-management/copy-on-write.md)
+  * [Memory Barrier](operating-system/memory-management/memory-barrier.md)
+  * [Memory Reorder](operating-system/memory-management/memory-reorder.md)
 
 ## Framework Analysis
 

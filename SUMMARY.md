@@ -147,6 +147,7 @@
   * [Discussion](framework-analysis/computing-optimization/discussion.md)
 * [Distributed System](framework-analysis/distributed-system/README.md)
   * [MPI](framework-analysis/distributed-system/mpi.md)
+* [Protobuf](framework-analysis/protobuf.md)
 
 ## Database Analysis
 
@@ -159,6 +160,7 @@
     * [Read](database-analysis/mysql/crud/read.md)
     * [Update](database-analysis/mysql/crud/update.md)
     * [Delete](database-analysis/mysql/crud/delete.md)
+* [Small Files](database-analysis/small-files.md)
 
 ## High-Performance Computing
 

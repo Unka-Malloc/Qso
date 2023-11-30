@@ -4,6 +4,7 @@
   * [Articles](readme/articles.md)
 * [Pathway](pathway/README.md)
   * [Linked List](pathway/linked-list.md)
+  * [Prefix Sum](pathway/prefix-sum.md)
 
 ## Topics
 

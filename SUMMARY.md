@@ -5,6 +5,8 @@
 * [Pathway](pathway/README.md)
   * [Linked List](pathway/linked-list.md)
   * [Prefix Sum](pathway/prefix-sum.md)
+* [Idea](idea/README.md)
+  * [Data Complexity](idea/data-complexity.md)
 
 ## Topics
 

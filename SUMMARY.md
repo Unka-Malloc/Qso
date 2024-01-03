@@ -13,6 +13,10 @@
 * [Generics](topics/generics.md)
 * [Polymorphism](topics/polymorphism.md)
 
+## Gasander
+
+* [Competition](gasander/competition.md)
+
 ## David
 
 * [Small Talk](david/small-talk.md)

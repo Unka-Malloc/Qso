@@ -63,12 +63,6 @@
   * [GaGaGa](symbol-interpretation/discussion/gagaga.md)
 * [References](symbol-interpretation/references.md)
 
-***
-
-* [LLVM](llvm/README.md)
-  * [MLIR](llvm/mlir.md)
-  * [LLVM IR](llvm/llvm-ir.md)
-
 ## Design Pattern
 
 * [Visitor](design-pattern/visitor/README.md)
@@ -144,21 +138,24 @@
   * [Memory Barrier](operating-system/memory-management/memory-barrier.md)
   * [Memory Reorder](operating-system/memory-management/memory-reorder.md)
 
-## Framework Analysis
+## Framework
 
-* [Overview](resource-dispatch/overview.md)
-* [LLVM](framework-analysis/llvm/README.md)
-  * [Clang](framework-analysis/llvm/clang.md)
-  * [LLVM IR](framework-analysis/llvm/llvm-ir.md)
-  * [MLIR](framework-analysis/llvm/mlir.md)
-* [Computing Optimization](framework-analysis/computing-optimization/README.md)
-  * [SIMD](framework-analysis/computing-optimization/simd.md)
-  * [oneTBB (MIMD)](framework-analysis/computing-optimization/onetbb-mimd.md)
-  * [OpenMP (MIMD)](framework-analysis/computing-optimization/openmp-mimd.md)
-  * [Discussion](framework-analysis/computing-optimization/discussion.md)
-* [Distributed System](framework-analysis/distributed-system/README.md)
-  * [MPI](framework-analysis/distributed-system/mpi.md)
-* [Protobuf](framework-analysis/protobuf.md)
+* [Overview](framework/overview.md)
+* [LLVM](framework/llvm/README.md)
+  * [Clang](framework/llvm/clang.md)
+  * [LLVM IR](framework/llvm/llvm-ir/README.md)
+    * [Page 1](framework/llvm/llvm-ir/page-1.md)
+  * [MLIR](framework/llvm/mlir.md)
+  * [LLVM Pass](framework/llvm/llvm-pass/README.md)
+    * [mem2reg](framework/llvm/llvm-pass/mem2reg.md)
+* [Computing Optimization](framework/computing-optimization/README.md)
+  * [SIMD](framework/computing-optimization/simd.md)
+  * [oneTBB (MIMD)](framework/computing-optimization/onetbb-mimd.md)
+  * [OpenMP (MIMD)](framework/computing-optimization/openmp-mimd.md)
+  * [Discussion](framework/computing-optimization/discussion.md)
+* [Distributed System](framework/distributed-system/README.md)
+  * [MPI](framework/distributed-system/mpi.md)
+* [Protobuf](framework/protobuf.md)
 
 ## Database Analysis
 

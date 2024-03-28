@@ -3,6 +3,7 @@
 * [Qso](README.md)
   * [Articles](readme/articles.md)
   * [Page](readme/page.md)
+* [History](history.md)
 * [Pathway](pathway/README.md)
   * [Linked List](pathway/linked-list.md)
   * [Prefix Sum](pathway/prefix-sum.md)
